@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Big+Shoulders+Display:wght@700&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Lexend+Deca&family=Lobster&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.content {
+  display: flex;
+}
+
+.card-left {
+  width: 330px;
+  height: 470px;
+  background-color: hsl(31, 77%, 52%);
+  display: flex;
+  justify-content: center;
+}
+
+.content-left {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-midle {
+  width: 330px;
+  height: 470px;
+  background-color: hsl(184, 100%, 22%);
+  display: flex;
+  justify-content: center;
+}
+
+.content-midle {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-right {
+  width: 330px;
+  height: 470px;
+  background-color: hsl(179, 100%, 13%);
+  display: flex;
+  justify-content: center;
+}
+
+.content-right {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 20%;
+  margin-top: 30px;
+}
+
+.title {
+  font-family: "Big Shoulders Display";
+  font-size: 40px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  margin-top: 30px;
+}
+
+.subTitle {
+  width: 210px;
+  height: 170px;
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: start;
+}
+
+#btn-left {
+  color: hsl(31, 77%, 52%);
+}
+
+#btn-midle {
+  color: hsl(184, 100%, 22%);
+}
+
+#btn-right {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn {
+  width: 170px;
+  height: 45px;
+  border: none;
+  border-radius: 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Lexend Deca";
+  margin-top: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#btn-left:hover {
+  opacity: 0.9;
+  border: 2px solid hsl(31, 77%, 52%);
+}
+
+#btn-midle:hover {
+  opacity: 0.9;
+  border: 2px solid hsl(184, 100%, 22%);
+}
+
+#btn-right:hover {
+  opacity: 0.9;
+  border: 2px solid hsl(179, 100%, 13%);
+}
+
+.assinatura > a,
+.assinatura span {
+  font-family: "Open Sans";
+  color: #063817;
+}
